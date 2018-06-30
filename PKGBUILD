@@ -1,7 +1,7 @@
 # Maintainer: George Sterpu <sterpug@tcd.ie>
 # PKGBUILD adapted from the official one of Sven-Hendrik Haase
 
-pkgbase=tensorflow_tesla
+pkgbase=tensorflow
 pkgname=(tensorflow_tesla python-tensorflow-tesla)
 pkgver=1.8.0
 _pkgver=1.8.0
