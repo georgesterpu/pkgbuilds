@@ -54,7 +54,7 @@ prepare() {
 
 build() {
   cd ${srcdir}/tensorflow-${_pkgver}-tesla
-  export CC_OPT_FLAGS="-march=native"
+  export CC_OPT_FLAGS="-march=native -O3 -D_GLIBCXX_USE_CXX11_ABI=0"
   export TF_NEED_CUDA=1
   export GCC_HOST_COMPILER_PATH=/usr/bin/gcc-7
   export TF_CUDA_CLANG=0
