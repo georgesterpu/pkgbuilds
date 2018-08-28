@@ -10,7 +10,7 @@ pkgdesc="Library for computation using data flow graphs for scalable machine lea
 url="https://www.tensorflow.org/"
 license=('APACHE')
 arch=('x86_64')
-makedepends=('bazel' 'python-numpy' 'python-wheel' 'python-setuptools' 'patch' 'fakeroot')
+makedepends=('bazel' 'python-numpy' 'python-wheel' 'python-setuptools' 'patch' 'fakeroot' 'gcc7')
 optdepends=('tensorboard: Tensorflow visualization toolkit')
 source=("https://github.com/tensorflow/tensorflow/archive/v${_pkgver}.tar.gz"
         python37.patch
